@@ -1,0 +1,47 @@
+.header__menu {
+    
+}
+.container {
+}
+.header__row {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.header__nav-logo {
+}
+
+
+.header__nav-list{
+    display: flex;
+    gap: 48px;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.091px;
+   
+    li{
+        transition: color .3s;
+    }
+
+    li:hover{
+        color: #00A4E5;
+text-align: center;
+
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.091px;
+    }
+
+a{
+    color: inherit;
+
+
+}
+}
