@@ -1,0 +1,39 @@
+.capabilities{
+    padding-bottom: 115px;
+}
+.capabilities__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 78px;
+}
+.capabilities__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.306px;
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        left: 27px;
+        bottom: 10px;
+        transform: translate(-50%, 0);
+        height: 2px;
+        width: 50px;
+        background-color: #00A4E5;
+    }
+}
+.capabilities__desc {
+    display: flex;
+    gap: 40px;
+}
+.capabilities__text {
+    max-width: 405px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 172.727% */
+    letter-spacing: 0.2px;
+}
