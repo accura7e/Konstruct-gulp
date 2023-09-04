@@ -25,7 +25,10 @@
     max-width: 400px;
     display: flex;
     flex-grow: 1;
-    
+    @media(max-width: 550px){
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 .signup__input {
     border: 1px solid #979797;
@@ -33,4 +36,11 @@
     padding: 11px 0 11px 16px;
     flex-grow: 1;
     color: #171819;
+}
+
+.signup__content{
+    @media(max-width: 550px){
+        flex-direction: column;
+        gap: 20px;
+    }
 }

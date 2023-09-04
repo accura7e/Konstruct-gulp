@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Стартовый шаблон</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="./css/main.css" />
-	</head>
-	<body>
-		@@include('blocks/header.html')
-		<main class="main">
-			@@include('blocks/header-nav.html')
-			@@include('blocks/story.html')
-			@@include('blocks/capabilities.html')
-			@@include('blocks/build.html')
-			@@include('blocks/form.html')
-		</main>
-		@@include('blocks/footer.html')
-		<script src="./js/index.bundle.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    @@include('blocks/header.html')
+    <main class="main">
+      @@include('blocks/header-nav.html') @@include('blocks/story.html')
+      @@include('blocks/capabilities.html') @@include('blocks/build.html')
+      @@include('blocks/signup.html')
+    </main>
+    @@include('blocks/footer.html')
+    <script src="./js/index.bundle.js"></script>
+  </body>
 </html>
