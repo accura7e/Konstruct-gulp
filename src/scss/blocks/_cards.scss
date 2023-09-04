@@ -1,6 +1,12 @@
 .capabilities__cards{
     display: flex;
     justify-content: space-between;
+    @media(max-width: 940px){
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+        align-items: center;
+    }
 }
 
 .capabilities__card {

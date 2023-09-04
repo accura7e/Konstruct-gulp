@@ -1,5 +1,9 @@
 .story {
     padding: 58px 0 117px;
+
+    @media(max-width: 850px){
+        padding: 58px 0 50px;
+    }
 }
 
 .story__title {
@@ -29,11 +33,26 @@
     display: flex;
     padding-top: 60px;
     justify-content: space-between;
+
+    @media(max-width: 940px){
+        display: grid;
+    }
+}
+
+.capabilities__btn{
+    display: flex;
+    margin: 0 auto;
 }
 .story__desc {
     max-width: 405px;
     display: grid;
     gap: 30px;
+
+    @media(max-width: 940px){
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }
 .story__desc-title {
     font-size: 20px;
@@ -56,6 +75,11 @@
     font-weight: 800;
     line-height: 29px; /* 120.833% */
     letter-spacing: 0.188px;
+
+    @media(max-width: 940px){
+        display: flex;
+        justify-content: center;
+    }
 }
 .story__images-item {
     position: relative;
